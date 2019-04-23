@@ -6,7 +6,7 @@ This repository cotains the PCB schematics of the YAK - Keyboard which is based 
 GH60 - an open-source mechanical keyboard PCB designed for the community at [geekhack](geekhack.org).
 Crated by Michal Trybus ([Komar007](https://github.com/komar007)) released under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en).
 
-[GH60-Home](http://blog.komar.be/projects/gh60-programmable-keyboard/).
+[GH60-Home](http://blog.komar.be/projects/gh60-programmable-keyboard/)
 
 ![alt text](http://blog.komar.be/wp-content/uploads/2013/02/ttt1-640x257.jpg)
 
