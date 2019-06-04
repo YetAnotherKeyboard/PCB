@@ -1,14 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:mx1a-simple
-LIBS:aker
-LIBS:atmega32u4
-LIBS:dtsjw
-LIBS:oupiin_usb
-LIBS:device
-LIBS:conn
+EESchema Schematic File Version 4
 LIBS:keyboard-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -23,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MX1A S01
+L keyboard-rescue:MX1A-mx1a-simple S01
 U 1 1 5040DD75
 P 3350 3350
 F 0 "S01" H 3200 3600 60  0000 C CNN
@@ -34,7 +26,7 @@ F 3 "" H 3350 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S06
+L keyboard-rescue:MX1A-mx1a-simple S06
 U 1 1 5040DD84
 P 4050 3350
 F 0 "S06" H 3900 3600 60  0000 C CNN
@@ -45,7 +37,7 @@ F 3 "" H 4050 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S11
+L keyboard-rescue:MX1A-mx1a-simple S11
 U 1 1 5040DD93
 P 4750 3350
 F 0 "S11" H 4600 3600 60  0000 C CNN
@@ -56,7 +48,7 @@ F 3 "" H 4750 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S16
+L keyboard-rescue:MX1A-mx1a-simple S16
 U 1 1 5040DDA2
 P 5450 3350
 F 0 "S16" H 5300 3600 60  0000 C CNN
@@ -67,7 +59,7 @@ F 3 "" H 5450 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S21
+L keyboard-rescue:MX1A-mx1a-simple S21
 U 1 1 5040DDAF
 P 6150 3350
 F 0 "S21" H 6000 3600 60  0000 C CNN
@@ -78,7 +70,7 @@ F 3 "" H 6150 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S26
+L keyboard-rescue:MX1A-mx1a-simple S26
 U 1 1 5040DDB5
 P 6850 3350
 F 0 "S26" H 6700 3600 60  0000 C CNN
@@ -89,7 +81,7 @@ F 3 "" H 6850 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S36
+L keyboard-rescue:MX1A-mx1a-simple S36
 U 1 1 5040DDC1
 P 8250 3350
 F 0 "S36" H 8100 3600 60  0000 C CNN
@@ -100,7 +92,7 @@ F 3 "" H 8250 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S46
+L keyboard-rescue:MX1A-mx1a-simple S46
 U 1 1 5040DDCD
 P 9650 3350
 F 0 "S46" H 9500 3600 60  0000 C CNN
@@ -111,7 +103,7 @@ F 3 "" H 9650 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S51
+L keyboard-rescue:MX1A-mx1a-simple S51
 U 1 1 5040DDD3
 P 10350 3350
 F 0 "S51" H 10200 3600 60  0000 C CNN
@@ -122,7 +114,7 @@ F 3 "" H 10350 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S56
+L keyboard-rescue:MX1A-mx1a-simple S56
 U 1 1 5040DDD9
 P 11050 3350
 F 0 "S56" H 10900 3600 60  0000 C CNN
@@ -133,7 +125,7 @@ F 3 "" H 11050 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S61
+L keyboard-rescue:MX1A-mx1a-simple S61
 U 1 1 5040DDDF
 P 11750 3350
 F 0 "S61" H 11600 3600 60  0000 C CNN
@@ -144,7 +136,7 @@ F 3 "" H 11750 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S66
+L keyboard-rescue:MX1A-mx1a-simple S66
 U 1 1 5040DDE5
 P 12450 3350
 F 0 "S66" H 12300 3600 60  0000 C CNN
@@ -155,7 +147,7 @@ F 3 "" H 12450 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S02
+L keyboard-rescue:MX1A-mx1a-simple S02
 U 1 1 5040DDF7
 P 3350 4550
 F 0 "S02" H 3200 4800 60  0000 C CNN
@@ -166,7 +158,7 @@ F 3 "" H 3350 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S07
+L keyboard-rescue:MX1A-mx1a-simple S07
 U 1 1 5040DDFD
 P 4050 4550
 F 0 "S07" H 3900 4800 60  0000 C CNN
@@ -177,7 +169,7 @@ F 3 "" H 4050 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S12
+L keyboard-rescue:MX1A-mx1a-simple S12
 U 1 1 5040DE03
 P 4750 4550
 F 0 "S12" H 4600 4800 60  0000 C CNN
@@ -188,7 +180,7 @@ F 3 "" H 4750 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S17
+L keyboard-rescue:MX1A-mx1a-simple S17
 U 1 1 5040DE09
 P 5450 4550
 F 0 "S17" H 5300 4800 60  0000 C CNN
@@ -199,7 +191,7 @@ F 3 "" H 5450 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S22
+L keyboard-rescue:MX1A-mx1a-simple S22
 U 1 1 5040DE0F
 P 6150 4550
 F 0 "S22" H 6000 4800 60  0000 C CNN
@@ -210,7 +202,7 @@ F 3 "" H 6150 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S27
+L keyboard-rescue:MX1A-mx1a-simple S27
 U 1 1 5040DE15
 P 6850 4550
 F 0 "S27" H 6700 4800 60  0000 C CNN
@@ -221,7 +213,7 @@ F 3 "" H 6850 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S32
+L keyboard-rescue:MX1A-mx1a-simple S32
 U 1 1 5040DE1B
 P 7550 4550
 F 0 "S32" H 7400 4800 60  0000 C CNN
@@ -232,7 +224,7 @@ F 3 "" H 7550 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S37
+L keyboard-rescue:MX1A-mx1a-simple S37
 U 1 1 5040DE21
 P 8250 4550
 F 0 "S37" H 8100 4800 60  0000 C CNN
@@ -243,7 +235,7 @@ F 3 "" H 8250 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S42
+L keyboard-rescue:MX1A-mx1a-simple S42
 U 1 1 5040DE27
 P 8950 4550
 F 0 "S42" H 8800 4800 60  0000 C CNN
@@ -254,7 +246,7 @@ F 3 "" H 8950 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S47
+L keyboard-rescue:MX1A-mx1a-simple S47
 U 1 1 5040DE2D
 P 9650 4550
 F 0 "S47" H 9500 4800 60  0000 C CNN
@@ -265,7 +257,7 @@ F 3 "" H 9650 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S52
+L keyboard-rescue:MX1A-mx1a-simple S52
 U 1 1 5040DE33
 P 10350 4550
 F 0 "S52" H 10200 4800 60  0000 C CNN
@@ -276,7 +268,7 @@ F 3 "" H 10350 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S57
+L keyboard-rescue:MX1A-mx1a-simple S57
 U 1 1 5040DE39
 P 11050 4550
 F 0 "S57" H 10900 4800 60  0000 C CNN
@@ -287,7 +279,7 @@ F 3 "" H 11050 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S62
+L keyboard-rescue:MX1A-mx1a-simple S62
 U 1 1 5040DE3F
 P 11750 4550
 F 0 "S62" H 11600 4800 60  0000 C CNN
@@ -298,7 +290,7 @@ F 3 "" H 11750 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S67
+L keyboard-rescue:MX1A-mx1a-simple S67
 U 1 1 5040DE45
 P 12450 4550
 F 0 "S67" H 12300 4800 60  0000 C CNN
@@ -309,7 +301,7 @@ F 3 "" H 12450 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S03
+L keyboard-rescue:MX1A-mx1a-simple S03
 U 1 1 5040DE57
 P 3350 5550
 F 0 "S03" H 3200 5800 60  0000 C CNN
@@ -320,7 +312,7 @@ F 3 "" H 3350 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S08
+L keyboard-rescue:MX1A-mx1a-simple S08
 U 1 1 5040DE5D
 P 4050 5550
 F 0 "S08" H 3900 5800 60  0000 C CNN
@@ -331,7 +323,7 @@ F 3 "" H 4050 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S13
+L keyboard-rescue:MX1A-mx1a-simple S13
 U 1 1 5040DE63
 P 4750 5550
 F 0 "S13" H 4600 5800 60  0000 C CNN
@@ -342,7 +334,7 @@ F 3 "" H 4750 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S18
+L keyboard-rescue:MX1A-mx1a-simple S18
 U 1 1 5040DE69
 P 5450 5550
 F 0 "S18" H 5300 5800 60  0000 C CNN
@@ -353,7 +345,7 @@ F 3 "" H 5450 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S23
+L keyboard-rescue:MX1A-mx1a-simple S23
 U 1 1 5040DE6F
 P 6150 5550
 F 0 "S23" H 6000 5800 60  0000 C CNN
@@ -364,7 +356,7 @@ F 3 "" H 6150 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S28
+L keyboard-rescue:MX1A-mx1a-simple S28
 U 1 1 5040DE75
 P 6850 5550
 F 0 "S28" H 6700 5800 60  0000 C CNN
@@ -375,7 +367,7 @@ F 3 "" H 6850 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S33
+L keyboard-rescue:MX1A-mx1a-simple S33
 U 1 1 5040DE7B
 P 7550 5550
 F 0 "S33" H 7400 5800 60  0000 C CNN
@@ -386,7 +378,7 @@ F 3 "" H 7550 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S38
+L keyboard-rescue:MX1A-mx1a-simple S38
 U 1 1 5040DE81
 P 8250 5550
 F 0 "S38" H 8100 5800 60  0000 C CNN
@@ -397,7 +389,7 @@ F 3 "" H 8250 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S43
+L keyboard-rescue:MX1A-mx1a-simple S43
 U 1 1 5040DE87
 P 8950 5550
 F 0 "S43" H 8800 5800 60  0000 C CNN
@@ -408,7 +400,7 @@ F 3 "" H 8950 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S48
+L keyboard-rescue:MX1A-mx1a-simple S48
 U 1 1 5040DE8D
 P 9650 5550
 F 0 "S48" H 9500 5800 60  0000 C CNN
@@ -419,7 +411,7 @@ F 3 "" H 9650 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S53
+L keyboard-rescue:MX1A-mx1a-simple S53
 U 1 1 5040DE93
 P 10350 5550
 F 0 "S53" H 10200 5800 60  0000 C CNN
@@ -430,7 +422,7 @@ F 3 "" H 10350 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S58
+L keyboard-rescue:MX1A-mx1a-simple S58
 U 1 1 5040DE99
 P 11050 5550
 F 0 "S58" H 10900 5800 60  0000 C CNN
@@ -441,7 +433,7 @@ F 3 "" H 11050 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S63
+L keyboard-rescue:MX1A-mx1a-simple S63
 U 1 1 5040DE9F
 P 11750 5550
 F 0 "S63" H 11600 5800 60  0000 C CNN
@@ -452,7 +444,7 @@ F 3 "" H 11750 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S09
+L keyboard-rescue:MX1A-mx1a-simple S09
 U 1 1 5040DEBD
 P 4050 7050
 F 0 "S09" H 3900 7300 60  0000 C CNN
@@ -463,7 +455,7 @@ F 3 "" H 4050 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S14
+L keyboard-rescue:MX1A-mx1a-simple S14
 U 1 1 5040DEC3
 P 4750 7050
 F 0 "S14" H 4600 7300 60  0000 C CNN
@@ -474,7 +466,7 @@ F 3 "" H 4750 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S24
+L keyboard-rescue:MX1A-mx1a-simple S24
 U 1 1 5040DECF
 P 6150 7050
 F 0 "S24" H 6000 7300 60  0000 C CNN
@@ -485,7 +477,7 @@ F 3 "" H 6150 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S29
+L keyboard-rescue:MX1A-mx1a-simple S29
 U 1 1 5040DED5
 P 6850 7050
 F 0 "S29" H 6700 7300 60  0000 C CNN
@@ -496,7 +488,7 @@ F 3 "" H 6850 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S34
+L keyboard-rescue:MX1A-mx1a-simple S34
 U 1 1 5040DEDB
 P 7550 7050
 F 0 "S34" H 7400 7300 60  0000 C CNN
@@ -507,7 +499,7 @@ F 3 "" H 7550 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S39
+L keyboard-rescue:MX1A-mx1a-simple S39
 U 1 1 5040DEE1
 P 8250 7050
 F 0 "S39" H 8100 7300 60  0000 C CNN
@@ -518,7 +510,7 @@ F 3 "" H 8250 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S44
+L keyboard-rescue:MX1A-mx1a-simple S44
 U 1 1 5040DEE7
 P 8950 7050
 F 0 "S44" H 8800 7300 60  0000 C CNN
@@ -529,7 +521,7 @@ F 3 "" H 8950 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S49
+L keyboard-rescue:MX1A-mx1a-simple S49
 U 1 1 5040DEED
 P 9650 7050
 F 0 "S49" H 9500 7300 60  0000 C CNN
@@ -540,7 +532,7 @@ F 3 "" H 9650 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S54
+L keyboard-rescue:MX1A-mx1a-simple S54
 U 1 1 5040DEF3
 P 10350 7050
 F 0 "S54" H 10200 7300 60  0000 C CNN
@@ -551,7 +543,7 @@ F 3 "" H 10350 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S59
+L keyboard-rescue:MX1A-mx1a-simple S59
 U 1 1 5040DEF9
 P 11050 7050
 F 0 "S59" H 10900 7300 60  0000 C CNN
@@ -562,7 +554,7 @@ F 3 "" H 11050 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S69
+L keyboard-rescue:MX1A-mx1a-simple S69
 U 1 1 5040DF05
 P 12450 7050
 F 0 "S69" H 12300 7300 60  0000 C CNN
@@ -573,7 +565,7 @@ F 3 "" H 12450 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S05
+L keyboard-rescue:MX1A-mx1a-simple S05
 U 1 1 5040DF17
 P 3350 8550
 F 0 "S05" H 3200 8800 60  0000 C CNN
@@ -584,7 +576,7 @@ F 3 "" H 3350 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S10
+L keyboard-rescue:MX1A-mx1a-simple S10
 U 1 1 5040DF1D
 P 4050 8550
 F 0 "S10" H 3900 8800 60  0000 C CNN
@@ -595,7 +587,7 @@ F 3 "" H 4050 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S15
+L keyboard-rescue:MX1A-mx1a-simple S15
 U 1 1 5040DF23
 P 4750 8550
 F 0 "S15" H 4600 8800 60  0000 C CNN
@@ -606,7 +598,7 @@ F 3 "" H 4750 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S55
+L keyboard-rescue:MX1A-mx1a-simple S55
 U 1 1 5040DF53
 P 10350 8550
 F 0 "S55" H 10200 8800 60  0000 C CNN
@@ -617,7 +609,7 @@ F 3 "" H 10350 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S60
+L keyboard-rescue:MX1A-mx1a-simple S60
 U 1 1 5040DF59
 P 11050 8550
 F 0 "S60" H 10900 8800 60  0000 C CNN
@@ -628,7 +620,7 @@ F 3 "" H 11050 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S65
+L keyboard-rescue:MX1A-mx1a-simple S65
 U 1 1 5040DF5F
 P 11700 9000
 F 0 "S65" H 11550 9250 60  0000 C CNN
@@ -639,7 +631,7 @@ F 3 "" H 11700 9000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S70
+L keyboard-rescue:MX1A-mx1a-simple S70
 U 1 1 5040DF65
 P 12400 9000
 F 0 "S70" H 12250 9250 60  0000 C CNN
@@ -650,7 +642,7 @@ F 3 "" H 12400 9000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S641
+L keyboard-rescue:MX1A-mx1a-simple S641
 U 1 1 5040E2D0
 P 11750 7350
 F 0 "S641" H 11600 7600 60  0000 C CNN
@@ -661,7 +653,7 @@ F 3 "" H 11750 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S681
+L keyboard-rescue:MX1A-mx1a-simple S681
 U 1 1 5040E5A6
 P 12450 5850
 F 0 "S681" H 12300 6100 60  0000 C CNN
@@ -672,7 +664,7 @@ F 3 "" H 12450 5850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S0512
+L keyboard-rescue:MX1A-mx1a-simple S0512
 U 1 1 5040ECF7
 P 3300 9000
 F 0 "S0512" H 3150 9250 60  0000 C CNN
@@ -683,7 +675,7 @@ F 3 "" H 3300 9000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S102
+L keyboard-rescue:MX1A-mx1a-simple S102
 U 1 1 5040EEA3
 P 4050 8850
 F 0 "S102" H 3900 9100 60  0000 C CNN
@@ -694,7 +686,7 @@ F 3 "" H 4050 8850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S101
+L keyboard-rescue:MX1A-mx1a-simple S101
 U 1 1 5040EEA9
 P 4050 9150
 F 0 "S101" H 3900 9400 60  0000 C CNN
@@ -705,7 +697,7 @@ F 3 "" H 4050 9150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S552
+L keyboard-rescue:MX1A-mx1a-simple S552
 U 1 1 5040F08D
 P 10300 9000
 F 0 "S552" H 10150 9250 60  0000 C CNN
@@ -716,7 +708,7 @@ F 3 "" H 10300 9000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S602
+L keyboard-rescue:MX1A-mx1a-simple S602
 U 1 1 5040F09E
 P 11050 9300
 F 0 "S602" H 10900 9550 60  0000 C CNN
@@ -727,7 +719,7 @@ F 3 "" H 11050 9300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S151
+L keyboard-rescue:MX1A-mx1a-simple S151
 U 1 1 5040F14F
 P 4700 9000
 F 0 "S151" H 4550 9250 60  0000 C CNN
@@ -738,7 +730,7 @@ F 3 "" H 4700 9000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S6512
+L keyboard-rescue:MX1A-mx1a-simple S6512
 U 1 1 5040F1A3
 P 11750 8550
 F 0 "S6512" H 11600 8800 60  0000 C CNN
@@ -749,7 +741,7 @@ F 3 "" H 11750 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S7012
+L keyboard-rescue:MX1A-mx1a-simple S7012
 U 1 1 5040F1FA
 P 12450 8550
 F 0 "S7012" H 12300 8800 60  0000 C CNN
@@ -760,7 +752,7 @@ F 3 "" H 12450 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S301
+L keyboard-rescue:MX1A-mx1a-simple S301
 U 1 1 5040FAEC
 P 6850 8900
 F 0 "S301" H 6700 9150 60  0000 C CNN
@@ -771,7 +763,7 @@ F 3 "" H 6850 8900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S302
+L keyboard-rescue:MX1A-mx1a-simple S302
 U 1 1 5040FAF4
 P 6850 8550
 F 0 "S302" H 6700 8800 60  0000 C CNN
@@ -782,7 +774,7 @@ F 3 "" H 6850 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S041
+L keyboard-rescue:MX1A-mx1a-simple S041
 U 1 1 50410564
 P 3350 7350
 F 0 "S041" H 3200 7600 60  0000 C CNN
@@ -793,7 +785,7 @@ F 3 "" H 3350 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S64
+L keyboard-rescue:MX1A-mx1a-simple S64
 U 1 1 5040DEFF
 P 11750 6600
 F 0 "S64" H 11600 6850 60  0000 C CNN
@@ -804,7 +796,7 @@ F 3 "" H 11750 6600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX1A S04
+L keyboard-rescue:MX1A-mx1a-simple S04
 U 1 1 5040DEB7
 P 3350 7050
 F 0 "S04" H 3200 7300 60  0000 C CNN
@@ -815,7 +807,7 @@ F 3 "" H 3350 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S68
+L keyboard-rescue:MX1A-mx1a-simple S68
 U 1 1 5040DEA5
 P 12450 5550
 F 0 "S68" H 12300 5800 60  0000 C CNN
@@ -850,7 +842,7 @@ col6
 Text Notes 7300 2450 0    120  ~ 0
 col7
 $Comp
-L MX1A S30
+L keyboard-rescue:MX1A-mx1a-simple S30
 U 1 1 5040DF35
 P 6800 9350
 F 0 "S30" H 6650 9600 60  0000 C CNN
@@ -875,7 +867,7 @@ col14
 Text Notes 8000 2450 0    120  ~ 0
 col8
 $Comp
-L MX1A S031
+L keyboard-rescue:MX1A-mx1a-simple S031
 U 1 1 5042A9E4
 P 3300 5450
 F 0 "S031" H 3150 5700 60  0000 C CNN
@@ -886,7 +878,7 @@ F 3 "" H 3300 5450 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED DC1
+L keyboard-rescue:LED-device DC1
 U 1 1 5042BB59
 P 14800 1850
 F 0 "DC1" H 14800 1950 50  0000 C CNN
@@ -897,7 +889,7 @@ F 3 "" H 14800 1850 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED DC2
+L keyboard-rescue:LED-device DC2
 U 1 1 5042BEB0
 P 15100 1850
 F 0 "DC2" H 15100 1950 50  0000 C CNN
@@ -946,7 +938,7 @@ col13
 Text HLabel 12700 1400 1    60   3State ~ 0
 col14
 $Comp
-L VCC #PWR031
+L keyboard-rescue:VCC-power1 #PWR031
 U 1 1 5043970C
 P 14800 1400
 F 0 "#PWR031" H 14800 1500 30  0001 C CNN
@@ -957,7 +949,7 @@ F 3 "" H 14800 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L keyboard-rescue:R-device R4
 U 1 1 5043A0D0
 P 14800 2550
 F 0 "R4" V 14880 2550 50  0000 C CNN
@@ -970,7 +962,7 @@ $EndComp
 Text HLabel 14800 3200 3    60   Input ~ 0
 CAPS_LED
 $Comp
-L MX1A S41
+L keyboard-rescue:MX1A-mx1a-simple S41
 U 1 1 5040DDC7
 P 8950 3350
 F 0 "S41" H 8800 3600 60  0000 C CNN
@@ -981,7 +973,7 @@ F 3 "" H 8950 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S31
+L keyboard-rescue:MX1A-mx1a-simple S31
 U 1 1 5040DDBB
 P 7550 3350
 F 0 "S31" H 7400 3600 60  0000 C CNN
@@ -992,7 +984,7 @@ F 3 "" H 7550 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S691
+L keyboard-rescue:MX1A-mx1a-simple S691
 U 1 1 5051FE50
 P 12400 6950
 F 0 "S691" H 12250 7200 60  0000 C CNN
@@ -1003,7 +995,7 @@ F 3 "" H 12400 6950 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX1A S692
+L keyboard-rescue:MX1A-mx1a-simple S692
 U 1 1 5051FE56
 P 12450 7650
 F 0 "S692" H 12300 7900 60  0000 C CNN
@@ -1014,7 +1006,7 @@ F 3 "" H 12450 7650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D06
+L keyboard-rescue:DIODE-device D06
 U 1 1 506B1C22
 P 4050 3350
 F 0 "D06" H 3900 3300 40  0000 C CNN
@@ -1029,7 +1021,7 @@ F 7 "1N4148-0805" H 3500 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D11
+L keyboard-rescue:DIODE-device D11
 U 1 1 506B1C2B
 P 4750 3350
 F 0 "D11" H 4600 3300 40  0000 C CNN
@@ -1044,7 +1036,7 @@ F 7 "1N4148-0805" H 3650 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D02
+L keyboard-rescue:DIODE-device D02
 U 1 1 506B1C34
 P 3350 4550
 F 0 "D02" H 3200 4500 40  0000 C CNN
@@ -1059,7 +1051,7 @@ F 7 "1N4148-0805" H 3350 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D04
+L keyboard-rescue:DIODE-device D04
 U 1 1 506B1C3D
 P 3350 7350
 F 0 "D04" H 3200 7300 40  0000 C CNN
@@ -1074,7 +1066,7 @@ F 7 "1N4148-0805" H 3350 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D07
+L keyboard-rescue:DIODE-device D07
 U 1 1 506B1C46
 P 4050 4550
 F 0 "D07" H 3900 4500 40  0000 C CNN
@@ -1089,7 +1081,7 @@ F 7 "1N4148-0805" H 3500 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D08
+L keyboard-rescue:DIODE-device D08
 U 1 1 506B1C4F
 P 4050 5550
 F 0 "D08" H 3900 5500 40  0000 C CNN
@@ -1104,7 +1096,7 @@ F 7 "1N4148-0805" H 3500 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D12
+L keyboard-rescue:DIODE-device D12
 U 1 1 506B4278
 P 4750 4550
 F 0 "D12" H 4600 4500 40  0000 C CNN
@@ -1119,7 +1111,7 @@ F 7 "1N4148-0805" H 3650 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D13
+L keyboard-rescue:DIODE-device D13
 U 1 1 506B4281
 P 4750 5550
 F 0 "D13" H 4600 5500 40  0000 C CNN
@@ -1134,7 +1126,7 @@ F 7 "1N4148-0805" H 3650 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D09
+L keyboard-rescue:DIODE-device D09
 U 1 1 506B428A
 P 4050 7050
 F 0 "D09" H 3900 7000 40  0000 C CNN
@@ -1149,7 +1141,7 @@ F 7 "1N4148-0805" H 3500 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D14
+L keyboard-rescue:DIODE-device D14
 U 1 1 506B4293
 P 4750 7050
 F 0 "D14" H 4600 7000 40  0000 C CNN
@@ -1164,7 +1156,7 @@ F 7 "1N4148-0805" H 3650 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D26
+L keyboard-rescue:DIODE-device D26
 U 1 1 506B42A5
 P 6850 3350
 F 0 "D26" H 6700 3300 40  0000 C CNN
@@ -1179,7 +1171,7 @@ F 7 "1N4148-0805" H 4100 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D27
+L keyboard-rescue:DIODE-device D27
 U 1 1 506B42AE
 P 6850 4550
 F 0 "D27" H 6700 4500 40  0000 C CNN
@@ -1194,7 +1186,7 @@ F 7 "1N4148-0805" H 4100 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D28
+L keyboard-rescue:DIODE-device D28
 U 1 1 506B42B7
 P 6850 5550
 F 0 "D28" H 6700 5500 40  0000 C CNN
@@ -1209,7 +1201,7 @@ F 7 "1N4148-0805" H 4100 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D29
+L keyboard-rescue:DIODE-device D29
 U 1 1 506B42C0
 P 6850 7050
 F 0 "D29" H 6700 7000 40  0000 C CNN
@@ -1224,7 +1216,7 @@ F 7 "1N4148-0805" H 4100 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S19
+L keyboard-rescue:MX1A-mx1a-simple S19
 U 1 1 5040DEC9
 P 5450 7050
 F 0 "S19" H 5300 7300 60  0000 C CNN
@@ -1235,7 +1227,7 @@ F 3 "" H 5450 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D16
+L keyboard-rescue:DIODE-device D16
 U 1 1 506B438B
 P 5450 3350
 F 0 "D16" H 5300 3300 40  0000 C CNN
@@ -1250,7 +1242,7 @@ F 7 "1N4148-0805" H 3800 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D17
+L keyboard-rescue:DIODE-device D17
 U 1 1 506B4394
 P 5450 4550
 F 0 "D17" H 5300 4500 40  0000 C CNN
@@ -1265,7 +1257,7 @@ F 7 "1N4148-0805" H 3800 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D18
+L keyboard-rescue:DIODE-device D18
 U 1 1 506B439D
 P 5450 5550
 F 0 "D18" H 5300 5500 40  0000 C CNN
@@ -1280,7 +1272,7 @@ F 7 "1N4148-0805" H 3800 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D19
+L keyboard-rescue:DIODE-device D19
 U 1 1 506B43A6
 P 5450 7050
 F 0 "D19" H 5300 7000 40  0000 C CNN
@@ -1295,7 +1287,7 @@ F 7 "1N4148-0805" H 3800 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D21
+L keyboard-rescue:DIODE-device D21
 U 1 1 506B5911
 P 6150 3350
 F 0 "D21" H 6000 3300 40  0000 C CNN
@@ -1310,7 +1302,7 @@ F 7 "1N4148-0805" H 3950 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D31
+L keyboard-rescue:DIODE-device D31
 U 1 1 506B591A
 P 7550 3350
 F 0 "D31" H 7400 3300 40  0000 C CNN
@@ -1325,7 +1317,7 @@ F 7 "1N4148-0805" H 4250 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D01
+L keyboard-rescue:DIODE-device D01
 U 1 1 506B5923
 P 3350 3350
 F 0 "D01" H 3200 3300 40  0000 C CNN
@@ -1340,7 +1332,7 @@ F 7 "1N4148-0805" H 3350 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D23
+L keyboard-rescue:DIODE-device D23
 U 1 1 506B592C
 P 6150 5550
 F 0 "D23" H 6000 5500 40  0000 C CNN
@@ -1355,7 +1347,7 @@ F 7 "1N4148-0805" H 3950 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D33
+L keyboard-rescue:DIODE-device D33
 U 1 1 506B5935
 P 7550 5550
 F 0 "D33" H 7400 5500 40  0000 C CNN
@@ -1370,7 +1362,7 @@ F 7 "1N4148-0805" H 4250 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D32
+L keyboard-rescue:DIODE-device D32
 U 1 1 506B593E
 P 7550 4550
 F 0 "D32" H 7400 4500 40  0000 C CNN
@@ -1385,7 +1377,7 @@ F 7 "1N4148-0805" H 4250 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D36
+L keyboard-rescue:DIODE-device D36
 U 1 1 506B5947
 P 8250 3350
 F 0 "D36" H 8100 3300 40  0000 C CNN
@@ -1400,7 +1392,7 @@ F 7 "1N4148-0805" H 4400 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D41
+L keyboard-rescue:DIODE-device D41
 U 1 1 506B5950
 P 8950 3350
 F 0 "D41" H 8800 3300 40  0000 C CNN
@@ -1415,7 +1407,7 @@ F 7 "1N4148-0805" H 4550 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D37
+L keyboard-rescue:DIODE-device D37
 U 1 1 506B5959
 P 8250 4550
 F 0 "D37" H 8100 4500 40  0000 C CNN
@@ -1430,7 +1422,7 @@ F 7 "1N4148-0805" H 4400 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D38
+L keyboard-rescue:DIODE-device D38
 U 1 1 506B5962
 P 8250 5550
 F 0 "D38" H 8100 5500 40  0000 C CNN
@@ -1445,7 +1437,7 @@ F 7 "1N4148-0805" H 4400 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D22
+L keyboard-rescue:DIODE-device D22
 U 1 1 506B596B
 P 6150 4550
 F 0 "D22" H 6000 4500 40  0000 C CNN
@@ -1460,7 +1452,7 @@ F 7 "1N4148-0805" H 3950 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D43
+L keyboard-rescue:DIODE-device D43
 U 1 1 506B5974
 P 8950 5550
 F 0 "D43" H 8800 5500 40  0000 C CNN
@@ -1475,7 +1467,7 @@ F 7 "1N4148-0805" H 4550 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D42
+L keyboard-rescue:DIODE-device D42
 U 1 1 506B597D
 P 8950 4550
 F 0 "D42" H 8800 4500 40  0000 C CNN
@@ -1490,7 +1482,7 @@ F 7 "1N4148-0805" H 4550 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D46
+L keyboard-rescue:DIODE-device D46
 U 1 1 506B5986
 P 9650 3350
 F 0 "D46" H 9500 3300 40  0000 C CNN
@@ -1505,7 +1497,7 @@ F 7 "1N4148-0805" H 4700 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D47
+L keyboard-rescue:DIODE-device D47
 U 1 1 506B598F
 P 9650 4550
 F 0 "D47" H 9500 4500 40  0000 C CNN
@@ -1520,7 +1512,7 @@ F 7 "1N4148-0805" H 4700 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D51
+L keyboard-rescue:DIODE-device D51
 U 1 1 506B5998
 P 10350 3350
 F 0 "D51" H 10200 3300 40  0000 C CNN
@@ -1535,7 +1527,7 @@ F 7 "1N4148-0805" H 4850 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D52
+L keyboard-rescue:DIODE-device D52
 U 1 1 506B59A1
 P 10350 4550
 F 0 "D52" H 10200 4500 40  0000 C CNN
@@ -1550,7 +1542,7 @@ F 7 "1N4148-0805" H 4850 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D48
+L keyboard-rescue:DIODE-device D48
 U 1 1 506B59AA
 P 9650 5550
 F 0 "D48" H 9500 5500 40  0000 C CNN
@@ -1565,7 +1557,7 @@ F 7 "1N4148-0805" H 4700 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D44
+L keyboard-rescue:DIODE-device D44
 U 1 1 506B59B3
 P 8950 7050
 F 0 "D44" H 8800 7000 40  0000 C CNN
@@ -1580,7 +1572,7 @@ F 7 "1N4148-0805" H 4550 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D49
+L keyboard-rescue:DIODE-device D49
 U 1 1 506B59BC
 P 9650 7050
 F 0 "D49" H 9500 7000 40  0000 C CNN
@@ -1595,7 +1587,7 @@ F 7 "1N4148-0805" H 4700 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D54
+L keyboard-rescue:DIODE-device D54
 U 1 1 506B59C5
 P 10350 7050
 F 0 "D54" H 10200 7000 40  0000 C CNN
@@ -1610,7 +1602,7 @@ F 7 "1N4148-0805" H 4850 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D59
+L keyboard-rescue:DIODE-device D59
 U 1 1 506B59CE
 P 11050 7050
 F 0 "D59" H 10900 7000 40  0000 C CNN
@@ -1625,7 +1617,7 @@ F 7 "1N4148-0805" H 5000 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D64
+L keyboard-rescue:DIODE-device D64
 U 1 1 506B59D7
 P 11750 7350
 F 0 "D64" H 11600 7300 40  0000 C CNN
@@ -1640,7 +1632,7 @@ F 7 "1N4148-0805" H 5150 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D69
+L keyboard-rescue:DIODE-device D69
 U 1 1 506B59E0
 P 12450 7650
 F 0 "D69" H 12300 7600 40  0000 C CNN
@@ -1655,7 +1647,7 @@ F 7 "1N4148-0805" H 5300 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D70
+L keyboard-rescue:DIODE-device D70
 U 1 1 506B59E9
 P 12450 9000
 F 0 "D70" H 12300 8950 40  0000 C CNN
@@ -1670,7 +1662,7 @@ F 7 "1N4148-0805" H 5300 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D65
+L keyboard-rescue:DIODE-device D65
 U 1 1 506B59F2
 P 11750 9000
 F 0 "D65" H 11600 8950 40  0000 C CNN
@@ -1685,7 +1677,7 @@ F 7 "1N4148-0805" H 5150 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D60
+L keyboard-rescue:DIODE-device D60
 U 1 1 506B59FB
 P 11050 9300
 F 0 "D60" H 10900 9250 40  0000 C CNN
@@ -1700,7 +1692,7 @@ F 7 "1N4148-0805" H 5000 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D55
+L keyboard-rescue:DIODE-device D55
 U 1 1 506B5A04
 P 10350 9000
 F 0 "D55" H 10200 8950 40  0000 C CNN
@@ -1715,7 +1707,7 @@ F 7 "1N4148-0805" H 4850 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D68
+L keyboard-rescue:DIODE-device D68
 U 1 1 506B5A16
 P 12450 6200
 F 0 "D68" H 12300 6150 40  0000 C CNN
@@ -1730,7 +1722,7 @@ F 7 "1N4148-0805" H 5300 4700 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D63
+L keyboard-rescue:DIODE-device D63
 U 1 1 506B5A1F
 P 11750 5550
 F 0 "D63" H 11600 5500 40  0000 C CNN
@@ -1745,7 +1737,7 @@ F 7 "1N4148-0805" H 5150 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D58
+L keyboard-rescue:DIODE-device D58
 U 1 1 506B5A28
 P 11050 5550
 F 0 "D58" H 10900 5500 40  0000 C CNN
@@ -1760,7 +1752,7 @@ F 7 "1N4148-0805" H 5000 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D53
+L keyboard-rescue:DIODE-device D53
 U 1 1 506B5A31
 P 10350 5550
 F 0 "D53" H 10200 5500 40  0000 C CNN
@@ -1775,7 +1767,7 @@ F 7 "1N4148-0805" H 4850 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D67
+L keyboard-rescue:DIODE-device D67
 U 1 1 506B5A3A
 P 12450 4550
 F 0 "D67" H 12300 4500 40  0000 C CNN
@@ -1790,7 +1782,7 @@ F 7 "1N4148-0805" H 5300 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D62
+L keyboard-rescue:DIODE-device D62
 U 1 1 506B5A43
 P 11750 4550
 F 0 "D62" H 11600 4500 40  0000 C CNN
@@ -1805,7 +1797,7 @@ F 7 "1N4148-0805" H 5150 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D57
+L keyboard-rescue:DIODE-device D57
 U 1 1 506B5A4C
 P 11050 4550
 F 0 "D57" H 10900 4500 40  0000 C CNN
@@ -1820,7 +1812,7 @@ F 7 "1N4148-0805" H 5000 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D66
+L keyboard-rescue:DIODE-device D66
 U 1 1 506B5A55
 P 12450 3700
 F 0 "D66" H 12300 3650 40  0000 C CNN
@@ -1835,7 +1827,7 @@ F 7 "1N4148-0805" H 5300 3700 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D61
+L keyboard-rescue:DIODE-device D61
 U 1 1 506B5A5E
 P 11750 3350
 F 0 "D61" H 11600 3300 40  0000 C CNN
@@ -1850,7 +1842,7 @@ F 7 "1N4148-0805" H 5150 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D56
+L keyboard-rescue:DIODE-device D56
 U 1 1 506B5A67
 P 11050 3350
 F 0 "D56" H 10900 3300 40  0000 C CNN
@@ -1865,7 +1857,7 @@ F 7 "1N4148-0805" H 5000 3350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D24
+L keyboard-rescue:DIODE-device D24
 U 1 1 506B5A70
 P 6150 7050
 F 0 "D24" H 6000 7000 40  0000 C CNN
@@ -1880,7 +1872,7 @@ F 7 "1N4148-0805" H 3950 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D34
+L keyboard-rescue:DIODE-device D34
 U 1 1 506B5A79
 P 7550 7050
 F 0 "D34" H 7400 7000 40  0000 C CNN
@@ -1895,7 +1887,7 @@ F 7 "1N4148-0805" H 4250 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D39
+L keyboard-rescue:DIODE-device D39
 U 1 1 506B5A82
 P 8250 7050
 F 0 "D39" H 8100 7000 40  0000 C CNN
@@ -1910,7 +1902,7 @@ F 7 "1N4148-0805" H 4400 4750 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D05
+L keyboard-rescue:DIODE-device D05
 U 1 1 506B5A8B
 P 3350 9000
 F 0 "D05" H 3200 8950 40  0000 C CNN
@@ -1925,7 +1917,7 @@ F 7 "1N4148-0805" H 3350 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D10
+L keyboard-rescue:DIODE-device D10
 U 1 1 506B5A94
 P 4050 9150
 F 0 "D10" H 3900 9100 40  0000 C CNN
@@ -1940,7 +1932,7 @@ F 7 "1N4148-0805" H 3500 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D15
+L keyboard-rescue:DIODE-device D15
 U 1 1 506B5A9D
 P 4750 9000
 F 0 "D15" H 4600 8950 40  0000 C CNN
@@ -1955,7 +1947,7 @@ F 7 "1N4148-0805" H 3650 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D30
+L keyboard-rescue:DIODE-device D30
 U 1 1 506B5D8C
 P 6850 9350
 F 0 "D30" H 6700 9300 40  0000 C CNN
@@ -1970,7 +1962,7 @@ F 7 "1N4148-0805" H 4100 5050 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D03
+L keyboard-rescue:DIODE-device D03
 U 1 1 506B5DE9
 P 3350 6000
 F 0 "D03" H 3200 5950 40  0000 C CNN
@@ -1985,7 +1977,7 @@ F 7 "1N4148-0805" H 3350 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DC3
+L keyboard-rescue:LED-device DC3
 U 1 1 506E072F
 P 15400 1850
 F 0 "DC3" H 15400 1950 50  0000 C CNN
@@ -1996,7 +1988,7 @@ F 3 "" H 15400 1850 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MX1A S682
+L keyboard-rescue:MX1A-mx1a-simple S682
 U 1 1 50871329
 P 12400 5750
 F 0 "S682" H 12250 6000 60  0000 C CNN
@@ -2007,7 +1999,7 @@ F 3 "" H 12400 5750 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MX1A S601
+L keyboard-rescue:MX1A-mx1a-simple S601
 U 1 1 5040F098
 P 11050 8850
 F 0 "S601" H 10900 9100 60  0000 C CNN
@@ -2146,7 +2138,7 @@ mod6
 Text Notes 12200 9600 0    60   ~ 0
 mod7
 $Comp
-L MX1A S661
+L keyboard-rescue:MX1A-mx1a-simple S661
 U 1 1 51374D98
 P 12450 3650
 F 0 "S661" H 12300 3900 60  0000 C CNN
@@ -2157,7 +2149,7 @@ F 3 "" H 12450 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S50
+L keyboard-rescue:MX1A-mx1a-simple S50
 U 1 1 51374F44
 P 9650 8550
 F 0 "S50" H 9500 8800 60  0000 C CNN
@@ -2168,7 +2160,7 @@ F 3 "" H 9650 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D50
+L keyboard-rescue:DIODE-device D50
 U 1 1 51374F62
 P 9650 8550
 F 0 "D50" H 9500 8500 40  0000 C CNN

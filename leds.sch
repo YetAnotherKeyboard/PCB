@@ -1,14 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:mx1a-simple
-LIBS:aker
-LIBS:atmega32u4
-LIBS:dtsjw
-LIBS:oupiin_usb
-LIBS:device
-LIBS:conn
+EESchema Schematic File Version 4
 LIBS:keyboard-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -23,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED DB21
+L keyboard-rescue:LED-device DB21
 U 1 1 51900721
 P 4450 1950
 F 0 "DB21" H 4450 2050 50  0000 C CNN
@@ -34,7 +26,7 @@ F 3 "" H 4450 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB26
+L keyboard-rescue:LED-device DB26
 U 1 1 51900730
 P 5000 1950
 F 0 "DB26" H 5000 2050 50  0000 C CNN
@@ -45,7 +37,7 @@ F 3 "" H 5000 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB31
+L keyboard-rescue:LED-device DB31
 U 1 1 51900737
 P 5550 1950
 F 0 "DB31" H 5550 2050 50  0000 C CNN
@@ -56,7 +48,7 @@ F 3 "" H 5550 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB36
+L keyboard-rescue:LED-device DB36
 U 1 1 5190073E
 P 6100 1950
 F 0 "DB36" H 6100 2050 50  0000 C CNN
@@ -67,7 +59,7 @@ F 3 "" H 6100 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB06
+L keyboard-rescue:LED-device DB06
 U 1 1 5190074C
 P 2800 1950
 F 0 "DB06" H 2800 2050 50  0000 C CNN
@@ -78,7 +70,7 @@ F 3 "" H 2800 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB11
+L keyboard-rescue:LED-device DB11
 U 1 1 51900753
 P 3350 1950
 F 0 "DB11" H 3350 2050 50  0000 C CNN
@@ -89,7 +81,7 @@ F 3 "" H 3350 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB16
+L keyboard-rescue:LED-device DB16
 U 1 1 5190075A
 P 3900 1950
 F 0 "DB16" H 3900 2050 50  0000 C CNN
@@ -100,7 +92,7 @@ F 3 "" H 3900 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB61
+L keyboard-rescue:LED-device DB61
 U 1 1 51900761
 P 8850 1950
 F 0 "DB61" H 8850 2050 50  0000 C CNN
@@ -111,7 +103,7 @@ F 3 "" H 8850 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB66
+L keyboard-rescue:LED-device DB66
 U 1 1 51900768
 P 9400 1950
 F 0 "DB66" H 9400 2050 50  0000 C CNN
@@ -122,7 +114,7 @@ F 3 "" H 9400 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB41
+L keyboard-rescue:LED-device DB41
 U 1 1 5190077D
 P 6650 1950
 F 0 "DB41" H 6650 2050 50  0000 C CNN
@@ -133,7 +125,7 @@ F 3 "" H 6650 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB46
+L keyboard-rescue:LED-device DB46
 U 1 1 51900784
 P 7200 1950
 F 0 "DB46" H 7200 2050 50  0000 C CNN
@@ -144,7 +136,7 @@ F 3 "" H 7200 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB51
+L keyboard-rescue:LED-device DB51
 U 1 1 5190078B
 P 7750 1950
 F 0 "DB51" H 7750 2050 50  0000 C CNN
@@ -155,7 +147,7 @@ F 3 "" H 7750 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB56
+L keyboard-rescue:LED-device DB56
 U 1 1 51900792
 P 8300 1950
 F 0 "DB56" H 8300 2050 50  0000 C CNN
@@ -166,7 +158,7 @@ F 3 "" H 8300 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB22
+L keyboard-rescue:LED-device DB22
 U 1 1 51900799
 P 4450 2850
 F 0 "DB22" H 4450 2950 50  0000 C CNN
@@ -177,7 +169,7 @@ F 3 "" H 4450 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB27
+L keyboard-rescue:LED-device DB27
 U 1 1 519007A0
 P 5000 2850
 F 0 "DB27" H 5000 2950 50  0000 C CNN
@@ -188,7 +180,7 @@ F 3 "" H 5000 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB32
+L keyboard-rescue:LED-device DB32
 U 1 1 519007A7
 P 5550 2850
 F 0 "DB32" H 5550 2950 50  0000 C CNN
@@ -199,7 +191,7 @@ F 3 "" H 5550 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB37
+L keyboard-rescue:LED-device DB37
 U 1 1 519007AE
 P 6100 2850
 F 0 "DB37" H 6100 2950 50  0000 C CNN
@@ -210,7 +202,7 @@ F 3 "" H 6100 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB02
+L keyboard-rescue:LED-device DB02
 U 1 1 519007B5
 P 2250 2850
 F 0 "DB02" H 2250 2950 50  0000 C CNN
@@ -221,7 +213,7 @@ F 3 "" H 2250 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB07
+L keyboard-rescue:LED-device DB07
 U 1 1 519007BC
 P 2800 2850
 F 0 "DB07" H 2800 2950 50  0000 C CNN
@@ -232,7 +224,7 @@ F 3 "" H 2800 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB17
+L keyboard-rescue:LED-device DB17
 U 1 1 519007CA
 P 3900 2850
 F 0 "DB17" H 3900 2950 50  0000 C CNN
@@ -243,7 +235,7 @@ F 3 "" H 3900 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB62
+L keyboard-rescue:LED-device DB62
 U 1 1 519007D1
 P 8850 2850
 F 0 "DB62" H 8850 2950 50  0000 C CNN
@@ -254,7 +246,7 @@ F 3 "" H 8850 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB67
+L keyboard-rescue:LED-device DB67
 U 1 1 519007D8
 P 9400 2850
 F 0 "DB67" H 9400 2950 50  0000 C CNN
@@ -265,7 +257,7 @@ F 3 "" H 9400 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB42
+L keyboard-rescue:LED-device DB42
 U 1 1 519007E6
 P 6650 2850
 F 0 "DB42" H 6650 2950 50  0000 C CNN
@@ -276,7 +268,7 @@ F 3 "" H 6650 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB47
+L keyboard-rescue:LED-device DB47
 U 1 1 519007ED
 P 7200 2850
 F 0 "DB47" H 7200 2950 50  0000 C CNN
@@ -287,7 +279,7 @@ F 3 "" H 7200 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB52
+L keyboard-rescue:LED-device DB52
 U 1 1 519007F4
 P 7750 2850
 F 0 "DB52" H 7750 2950 50  0000 C CNN
@@ -298,7 +290,7 @@ F 3 "" H 7750 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB57
+L keyboard-rescue:LED-device DB57
 U 1 1 519007FB
 P 8300 2850
 F 0 "DB57" H 8300 2950 50  0000 C CNN
@@ -309,7 +301,7 @@ F 3 "" H 8300 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB23
+L keyboard-rescue:LED-device DB23
 U 1 1 51900802
 P 4450 3500
 F 0 "DB23" H 4450 3600 50  0000 C CNN
@@ -320,7 +312,7 @@ F 3 "" H 4450 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB28
+L keyboard-rescue:LED-device DB28
 U 1 1 51900809
 P 5000 3500
 F 0 "DB28" H 5000 3600 50  0000 C CNN
@@ -331,7 +323,7 @@ F 3 "" H 5000 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB33
+L keyboard-rescue:LED-device DB33
 U 1 1 51900810
 P 5550 3500
 F 0 "DB33" H 5550 3600 50  0000 C CNN
@@ -342,7 +334,7 @@ F 3 "" H 5550 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB38
+L keyboard-rescue:LED-device DB38
 U 1 1 51900817
 P 6100 3500
 F 0 "DB38" H 6100 3600 50  0000 C CNN
@@ -353,7 +345,7 @@ F 3 "" H 6100 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB63
+L keyboard-rescue:LED-device DB63
 U 1 1 5190083A
 P 8850 3500
 F 0 "DB63" H 8850 3600 50  0000 C CNN
@@ -364,7 +356,7 @@ F 3 "" H 8850 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB68
+L keyboard-rescue:LED-device DB68
 U 1 1 51900841
 P 9400 3500
 F 0 "DB68" H 9400 3600 50  0000 C CNN
@@ -375,7 +367,7 @@ F 3 "" H 9400 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB43
+L keyboard-rescue:LED-device DB43
 U 1 1 5190084F
 P 6650 3500
 F 0 "DB43" H 6650 3600 50  0000 C CNN
@@ -386,7 +378,7 @@ F 3 "" H 6650 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB48
+L keyboard-rescue:LED-device DB48
 U 1 1 51900856
 P 7200 3500
 F 0 "DB48" H 7200 3600 50  0000 C CNN
@@ -397,7 +389,7 @@ F 3 "" H 7200 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB53
+L keyboard-rescue:LED-device DB53
 U 1 1 5190085D
 P 7750 3500
 F 0 "DB53" H 7750 3600 50  0000 C CNN
@@ -408,7 +400,7 @@ F 3 "" H 7750 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB58
+L keyboard-rescue:LED-device DB58
 U 1 1 51900864
 P 8300 3500
 F 0 "DB58" H 8300 3600 50  0000 C CNN
@@ -419,7 +411,7 @@ F 3 "" H 8300 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB24
+L keyboard-rescue:LED-device DB24
 U 1 1 5190086B
 P 4450 4650
 F 0 "DB24" H 4450 4750 50  0000 C CNN
@@ -430,7 +422,7 @@ F 3 "" H 4450 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB29
+L keyboard-rescue:LED-device DB29
 U 1 1 51900872
 P 5000 4650
 F 0 "DB29" H 5000 4750 50  0000 C CNN
@@ -441,7 +433,7 @@ F 3 "" H 5000 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB34
+L keyboard-rescue:LED-device DB34
 U 1 1 51900879
 P 5550 4650
 F 0 "DB34" H 5550 4750 50  0000 C CNN
@@ -452,7 +444,7 @@ F 3 "" H 5550 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB39
+L keyboard-rescue:LED-device DB39
 U 1 1 51900880
 P 6100 4650
 F 0 "DB39" H 6100 4750 50  0000 C CNN
@@ -463,7 +455,7 @@ F 3 "" H 6100 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB04
+L keyboard-rescue:LED-device DB04
 U 1 1 51900887
 P 2250 4650
 F 0 "DB04" H 2250 4750 50  0000 C CNN
@@ -474,7 +466,7 @@ F 3 "" H 2250 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB09
+L keyboard-rescue:LED-device DB09
 U 1 1 5190088E
 P 2800 4650
 F 0 "DB09" H 2800 4750 50  0000 C CNN
@@ -485,7 +477,7 @@ F 3 "" H 2800 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB14
+L keyboard-rescue:LED-device DB14
 U 1 1 51900895
 P 3350 4650
 F 0 "DB14" H 3350 4750 50  0000 C CNN
@@ -496,7 +488,7 @@ F 3 "" H 3350 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB19
+L keyboard-rescue:LED-device DB19
 U 1 1 5190089C
 P 3900 4650
 F 0 "DB19" H 3900 4750 50  0000 C CNN
@@ -507,7 +499,7 @@ F 3 "" H 3900 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB44
+L keyboard-rescue:LED-device DB44
 U 1 1 519008B8
 P 6650 4650
 F 0 "DB44" H 6650 4750 50  0000 C CNN
@@ -518,7 +510,7 @@ F 3 "" H 6650 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB49
+L keyboard-rescue:LED-device DB49
 U 1 1 519008BF
 P 7200 4650
 F 0 "DB49" H 7200 4750 50  0000 C CNN
@@ -529,7 +521,7 @@ F 3 "" H 7200 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB54
+L keyboard-rescue:LED-device DB54
 U 1 1 519008C6
 P 7750 4650
 F 0 "DB54" H 7750 4750 50  0000 C CNN
@@ -540,7 +532,7 @@ F 3 "" H 7750 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB59
+L keyboard-rescue:LED-device DB59
 U 1 1 519008CD
 P 8300 4650
 F 0 "DB59" H 8300 4750 50  0000 C CNN
@@ -551,7 +543,7 @@ F 3 "" H 8300 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB05
+L keyboard-rescue:LED-device DB05
 U 1 1 519008F0
 P 2250 5550
 F 0 "DB05" H 2250 5650 50  0000 C CNN
@@ -562,7 +554,7 @@ F 3 "" H 2250 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB10
+L keyboard-rescue:LED-device DB10
 U 1 1 519008F7
 P 2800 5550
 F 0 "DB10" H 2800 5650 50  0000 C CNN
@@ -573,7 +565,7 @@ F 3 "" H 2800 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB15
+L keyboard-rescue:LED-device DB15
 U 1 1 519008FE
 P 3350 5550
 F 0 "DB15" H 3350 5650 50  0000 C CNN
@@ -584,7 +576,7 @@ F 3 "" H 3350 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB50
+L keyboard-rescue:LED-device DB50
 U 1 1 51900928
 P 7200 5550
 F 0 "DB50" H 7200 5650 50  0000 C CNN
@@ -595,7 +587,7 @@ F 3 "" H 7200 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB55
+L keyboard-rescue:LED-device DB55
 U 1 1 5190092F
 P 7750 5550
 F 0 "DB55" H 7750 5650 50  0000 C CNN
@@ -606,7 +598,7 @@ F 3 "" H 7750 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB30
+L keyboard-rescue:LED-device DB30
 U 1 1 519008DB
 P 5000 5550
 F 0 "DB30" H 5000 5650 50  0000 C CNN
@@ -617,7 +609,7 @@ F 3 "" H 5000 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB551
+L keyboard-rescue:LED-device DB551
 U 1 1 51C02CCF
 P 7750 5800
 F 0 "DB551" H 7750 5900 50  0000 C CNN
@@ -628,7 +620,7 @@ F 3 "" H 7750 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB301
+L keyboard-rescue:LED-device DB301
 U 1 1 51C0300D
 P 5000 5800
 F 0 "DB301" H 5000 5900 50  0000 C CNN
@@ -639,7 +631,7 @@ F 3 "" H 5000 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB302
+L keyboard-rescue:LED-device DB302
 U 1 1 51C03013
 P 5000 6050
 F 0 "DB302" H 5000 6150 50  0000 C CNN
@@ -650,7 +642,7 @@ F 3 "" H 5000 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB051
+L keyboard-rescue:LED-device DB051
 U 1 1 51C0378E
 P 2250 5800
 F 0 "DB051" H 2250 5900 50  0000 C CNN
@@ -661,7 +653,7 @@ F 3 "" H 2250 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB101
+L keyboard-rescue:LED-device DB101
 U 1 1 51C065B4
 P 2800 5800
 F 0 "DB101" H 2800 5900 50  0000 C CNN
@@ -672,7 +664,7 @@ F 3 "" H 2800 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB102
+L keyboard-rescue:LED-device DB102
 U 1 1 51C065BA
 P 2800 6050
 F 0 "DB102" H 2800 6150 50  0000 C CNN
@@ -683,7 +675,7 @@ F 3 "" H 2800 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB151
+L keyboard-rescue:LED-device DB151
 U 1 1 51C06955
 P 3350 5800
 F 0 "DB151" H 3350 5900 50  0000 C CNN
@@ -980,7 +972,7 @@ caps\nlock
 Text Notes 2200 1950 0    60   ~ 0
 esc
 $Comp
-L LED DB69
+L keyboard-rescue:LED-device DB69
 U 1 1 51C41A1A
 P 9400 4650
 F 0 "DB69" H 9400 4750 50  0000 C CNN
@@ -1041,7 +1033,7 @@ lcol14
 Text Notes 8800 4700 0    60   ~ 0
 Fn
 $Comp
-L LED DB041
+L keyboard-rescue:LED-device DB041
 U 1 1 51D98243
 P 2250 4900
 F 0 "DB041" H 2250 5000 50  0000 C CNN
@@ -1054,7 +1046,7 @@ $EndComp
 Connection ~ 2450 4650
 Connection ~ 2050 4900
 $Comp
-L LED DB661
+L keyboard-rescue:LED-device DB661
 U 1 1 51D9840C
 P 9400 2200
 F 0 "DB661" H 9400 2300 50  0000 C CNN
@@ -1067,7 +1059,7 @@ $EndComp
 Connection ~ 9600 1950
 Connection ~ 9200 2200
 $Comp
-L LED DB681
+L keyboard-rescue:LED-device DB681
 U 1 1 51D988E8
 P 9400 3750
 F 0 "DB681" H 9400 3850 50  0000 C CNN
@@ -1078,7 +1070,7 @@ F 3 "" H 9400 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DB682
+L keyboard-rescue:LED-device DB682
 U 1 1 51D988EE
 P 9400 4000
 F 0 "DB682" H 9400 4100 50  0000 C CNN

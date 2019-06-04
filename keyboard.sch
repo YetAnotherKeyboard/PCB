@@ -1,14 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:mx1a-simple
-LIBS:aker
-LIBS:atmega32u4
-LIBS:dtsjw
-LIBS:oupiin_usb
-LIBS:device
-LIBS:conn
+EESchema Schematic File Version 4
 LIBS:keyboard-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -37,7 +29,7 @@ Entry Wire Line
 Entry Wire Line
 	5200 1400 5300 1500
 $Comp
-L VCC #PWR01
+L keyboard-rescue:VCC-power1 #PWR01
 U 1 1 4F085452
 P 2600 5450
 F 0 "#PWR01" H 2600 5550 30  0001 C CNN
@@ -48,7 +40,7 @@ F 3 "" H 2600 5450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR02
+L keyboard-rescue:VCC-power1 #PWR02
 U 1 1 4F08534F
 P 1500 5450
 F 0 "#PWR02" H 1500 5550 30  0001 C CNN
@@ -60,7 +52,7 @@ F 3 "" H 1500 5450 60  0001 C CNN
 $EndComp
 NoConn ~ 1350 5950
 $Comp
-L USBMINI_B05 J1
+L keyboard-rescue:USBMINI_B05-oupiin_usb J1
 U 1 1 4F08252F
 P 1150 5850
 F 0 "J1" H 1075 6150 60  0000 C CNN
@@ -74,7 +66,7 @@ F 6 "Alibaba" H 1150 5850 60  0001 C CNN "Supplier"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L keyboard-rescue:GND-power1 #PWR03
 U 1 1 4F08176B
 P 2100 4450
 F 0 "#PWR03" H 2100 4450 30  0001 C CNN
@@ -85,7 +77,7 @@ F 3 "" H 2100 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L keyboard-rescue:GND-power1 #PWR04
 U 1 1 4F081769
 P 1900 4450
 F 0 "#PWR04" H 1900 4450 30  0001 C CNN
@@ -96,7 +88,7 @@ F 3 "" H 1900 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ASX4 X1
+L keyboard-rescue:ASX4-aker X1
 U 1 1 4F081730
 P 2000 4000
 F 0 "X1" H 2000 3800 60  0000 C CNN
@@ -111,7 +103,7 @@ F 7 "16.00M-SMDXT324" H 2000 4000 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR05
+L keyboard-rescue:VCC-power1 #PWR05
 U 1 1 4ED6BD35
 P 4700 1050
 F 0 "#PWR05" H 4700 1150 30  0001 C CNN
@@ -122,7 +114,7 @@ F 3 "" H 4700 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L keyboard-rescue:GND-power1 #PWR06
 U 1 1 4ED6BD03
 P 4700 1850
 F 0 "#PWR06" H 4700 1850 30  0001 C CNN
@@ -145,7 +137,7 @@ Entry Wire Line
 Entry Wire Line
 	3000 1200 3100 1300
 $Comp
-L GND #PWR07
+L keyboard-rescue:GND-power1 #PWR07
 U 1 1 4ED6BB30
 P 800 3500
 F 0 "#PWR07" H 800 3500 30  0001 C CNN
@@ -156,7 +148,7 @@ F 3 "" H 800 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR08
+L keyboard-rescue:VCC-power1 #PWR08
 U 1 1 4ED6BA8E
 P 2550 750
 F 0 "#PWR08" H 2550 850 30  0001 C CNN
@@ -167,7 +159,7 @@ F 3 "" H 2550 750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L keyboard-rescue:R-device R5
 U 1 1 4ED6BA73
 P 2550 1100
 F 0 "R5" V 2630 1100 50  0000 C CNN
@@ -182,7 +174,7 @@ F 7 "CRCW080510K0JNTABC" H 2900 6150 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L keyboard-rescue:GND-power1 #PWR09
 U 1 1 4ED6AF1D
 P 5500 7650
 F 0 "#PWR09" H 5500 7650 30  0001 C CNN
@@ -193,7 +185,7 @@ F 3 "" H 5500 7650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L keyboard-rescue:R-device R3
 U 1 1 4ED6AF08
 P 5500 7250
 F 0 "R3" V 5580 7250 50  0000 C CNN
@@ -208,7 +200,7 @@ F 7 "CRCW080510K0JNTABC" H 5500 7250 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L keyboard-rescue:GND-power1 #PWR010
 U 1 1 4ED6A667
 P 2600 7350
 F 0 "#PWR010" H 2600 7350 30  0001 C CNN
@@ -219,7 +211,7 @@ F 3 "" H 2600 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L keyboard-rescue:GND-power1 #PWR011
 U 1 1 4ED6A5D7
 P 2350 7350
 F 0 "#PWR011" H 2350 7350 30  0001 C CNN
@@ -230,7 +222,7 @@ F 3 "" H 2350 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L keyboard-rescue:C-device C3
 U 1 1 4ED6A5CC
 P 2350 6950
 F 0 "C3" H 2400 7050 50  0000 L CNN
@@ -245,7 +237,7 @@ F 7 "CL21B105KAFNNNE" H 2350 6950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L keyboard-rescue:GND-power1 #PWR012
 U 1 1 4ED6A418
 P 1500 6250
 F 0 "#PWR012" H 1500 6250 30  0001 C CNN
@@ -256,7 +248,7 @@ F 3 "" H 1500 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L keyboard-rescue:R-device R2
 U 1 1 4ED6A3B8
 P 1950 5850
 F 0 "R2" V 2050 5750 50  0000 C CNN
@@ -271,7 +263,7 @@ F 7 "CRCW080522R0JNTABC" H 1950 5750 60  0001 C CNN "Supplier Symbol"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L keyboard-rescue:R-device R1
 U 1 1 4ED6A3B0
 P 1950 5750
 F 0 "R1" V 1850 5650 50  0000 C CNN
@@ -286,7 +278,7 @@ F 7 "CRCW080522R0JNTABC" H 1950 5750 60  0001 C CNN "Supplier Symbol"
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR013
+L keyboard-rescue:VCC-power1 #PWR013
 U 1 1 4EB30C92
 P 3550 2250
 F 0 "#PWR013" H 3550 2350 30  0001 C CNN
@@ -297,7 +289,7 @@ F 3 "" H 3550 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR014
+L keyboard-rescue:VCC-power1 #PWR014
 U 1 1 4EB30C91
 P 3650 2250
 F 0 "#PWR014" H 3650 2350 30  0001 C CNN
@@ -308,7 +300,7 @@ F 3 "" H 3650 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR015
+L keyboard-rescue:VCC-power1 #PWR015
 U 1 1 4EB30C90
 P 3850 2250
 F 0 "#PWR015" H 3850 2350 30  0001 C CNN
@@ -319,7 +311,7 @@ F 3 "" H 3850 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR016
+L keyboard-rescue:VCC-power1 #PWR016
 U 1 1 4EB30C8B
 P 3950 2250
 F 0 "#PWR016" H 3950 2350 30  0001 C CNN
@@ -342,7 +334,7 @@ Entry Wire Line
 Entry Wire Line
 	5200 4050 5300 4150
 $Comp
-L GND #PWR017
+L keyboard-rescue:GND-power1 #PWR017
 U 1 1 4EB2CF09
 P 800 1900
 F 0 "#PWR017" H 800 1900 30  0001 C CNN
@@ -353,7 +345,7 @@ F 3 "" H 800 1900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR018
+L keyboard-rescue:VCC-power1 #PWR018
 U 1 1 4EB2CED6
 P 800 700
 F 0 "#PWR018" H 800 800 30  0001 C CNN
@@ -364,7 +356,7 @@ F 3 "" H 800 700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L keyboard-rescue:C-device C7
 U 1 1 4EB2CECC
 P 2000 1300
 F 0 "C7" H 2050 1400 50  0000 L CNN
@@ -379,7 +371,7 @@ F 7 "CL21B104KBCNNNC" H 1100 1300 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L keyboard-rescue:C-device C6
 U 1 1 4EB2CECA
 P 1700 1300
 F 0 "C6" H 1750 1400 50  0000 L CNN
@@ -394,7 +386,7 @@ F 7 "CL21B104KBCNNNC" H 1100 1300 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L keyboard-rescue:C-device C5
 U 1 1 4EB2CEC9
 P 1400 1300
 F 0 "C5" H 1450 1400 50  0000 L CNN
@@ -409,7 +401,7 @@ F 7 "CL21B104KBCNNNC" H 1100 1300 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L keyboard-rescue:C-device C4
 U 1 1 4EB2CEC5
 P 1100 1300
 F 0 "C4" H 1150 1400 50  0000 L CNN
@@ -424,7 +416,7 @@ F 7 "CL21B104KBCNNNC" H 1100 1300 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L keyboard-rescue:GND-power1 #PWR019
 U 1 1 4E99C40C
 P 3900 7350
 F 0 "#PWR019" H 3900 7350 30  0001 C CNN
@@ -435,7 +427,7 @@ F 3 "" H 3900 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L keyboard-rescue:GND-power1 #PWR020
 U 1 1 4E99C40B
 P 3800 7350
 F 0 "#PWR020" H 3800 7350 30  0001 C CNN
@@ -446,7 +438,7 @@ F 3 "" H 3800 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L keyboard-rescue:GND-power1 #PWR021
 U 1 1 4E99C407
 P 3700 7350
 F 0 "#PWR021" H 3700 7350 30  0001 C CNN
@@ -457,7 +449,7 @@ F 3 "" H 3700 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L keyboard-rescue:GND-power1 #PWR022
 U 1 1 4E99C403
 P 3600 7350
 F 0 "#PWR022" H 3600 7350 30  0001 C CNN
@@ -468,7 +460,7 @@ F 3 "" H 3600 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L keyboard-rescue:GND-power1 #PWR023
 U 1 1 4E99B659
 P 1550 4750
 F 0 "#PWR023" H 1550 4750 30  0001 C CNN
@@ -479,7 +471,7 @@ F 3 "" H 1550 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L keyboard-rescue:GND-power1 #PWR024
 U 1 1 4E99B657
 P 2450 4750
 F 0 "#PWR024" H 2450 4750 30  0001 C CNN
@@ -490,7 +482,7 @@ F 3 "" H 2450 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L keyboard-rescue:GND-power1 #PWR025
 U 1 1 4E99B655
 P 2450 4750
 F 0 "#PWR025" H 2450 4750 30  0001 C CNN
@@ -501,7 +493,7 @@ F 3 "" H 2450 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L keyboard-rescue:C-device C2
 U 1 1 4E99B644
 P 2450 4350
 F 0 "C2" H 2500 4450 50  0000 L CNN
@@ -516,7 +508,7 @@ F 7 "CL21C220JBANNNC" H 1550 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L keyboard-rescue:C-device C1
 U 1 1 4E99B63E
 P 1550 4350
 F 0 "C1" H 1600 4450 50  0000 L CNN
@@ -531,7 +523,7 @@ F 7 "CL21C220JBANNNC" H 1550 4350 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATMEGA32U4 IC1
+L keyboard-rescue:ATMEGA32U4-atmega32u4 IC1
 U 1 1 4E9998BD
 P 3750 4900
 F 0 "IC1" H 2950 6730 50  0000 L BNN
@@ -610,7 +602,7 @@ Entry Wire Line
 Entry Wire Line
 	6100 6350 6200 6450
 $Comp
-L DTSM-6 S0
+L keyboard-rescue:DTSM-6-dtsjw S0
 U 1 1 50440A9A
 P 1250 3200
 F 0 "S0" V 965 3100 50  0000 L BNN
@@ -753,7 +745,7 @@ Entry Wire Line
 Text Label 6050 3850 2    60   ~ 0
 col14
 $Comp
-L CONN_1 P1
+L keyboard-rescue:CONN_1-conn P1
 U 1 1 507D1E9B
 P 3850 1300
 F 0 "P1" H 3930 1300 40  0000 L CNN
@@ -764,7 +756,7 @@ F 3 "" H 3850 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P3
+L keyboard-rescue:CONN_1-conn P3
 U 1 1 507D1EE6
 P 3850 1400
 F 0 "P3" H 3930 1400 40  0000 L CNN
@@ -775,7 +767,7 @@ F 3 "" H 3850 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P5
+L keyboard-rescue:CONN_1-conn P5
 U 1 1 507D1F31
 P 3850 1500
 F 0 "P5" H 3930 1500 40  0000 L CNN
@@ -786,7 +778,7 @@ F 3 "" H 3850 1500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P2
+L keyboard-rescue:CONN_1-conn P2
 U 1 1 507D1F7C
 P 4350 1300
 F 0 "P2" H 4430 1300 40  0000 L CNN
@@ -797,7 +789,7 @@ F 3 "" H 4350 1300 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P4
+L keyboard-rescue:CONN_1-conn P4
 U 1 1 507D1FC7
 P 4350 1400
 F 0 "P4" H 4430 1400 40  0000 L CNN
@@ -808,7 +800,7 @@ F 3 "" H 4350 1400 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P6
+L keyboard-rescue:CONN_1-conn P6
 U 1 1 507D2012
 P 4350 1500
 F 0 "P6" H 4430 1500 40  0000 L CNN
@@ -819,7 +811,7 @@ F 3 "" H 4350 1500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C8
+L keyboard-rescue:C-device C8
 U 1 1 5086A760
 P 800 1300
 F 0 "C8" H 850 1400 50  0000 L CNN
@@ -850,7 +842,7 @@ GPIO2
 Text Label 5150 6150 2    50   ~ 0
 GPIO3
 $Comp
-L CONN_1 P7
+L keyboard-rescue:CONN_1-conn P7
 U 1 1 5136239B
 P 9800 5350
 F 0 "P7" H 9880 5350 40  0000 L CNN
@@ -861,7 +853,7 @@ F 3 "" H 9800 5350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P8
+L keyboard-rescue:CONN_1-conn P8
 U 1 1 513623A1
 P 9800 5450
 F 0 "P8" H 9880 5450 40  0000 L CNN
@@ -872,7 +864,7 @@ F 3 "" H 9800 5450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P9
+L keyboard-rescue:CONN_1-conn P9
 U 1 1 513623A7
 P 9800 5550
 F 0 "P9" H 9880 5550 40  0000 L CNN
@@ -883,7 +875,7 @@ F 3 "" H 9800 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P10
+L keyboard-rescue:CONN_1-conn P10
 U 1 1 51362518
 P 9800 5650
 F 0 "P10" H 9880 5650 40  0000 L CNN
@@ -910,7 +902,7 @@ GPIO2
 Text Label 9100 5650 0    50   ~ 0
 GPIO3
 $Comp
-L CONN_1 P11
+L keyboard-rescue:CONN_1-conn P11
 U 1 1 51365814
 P 7400 3050
 F 0 "P11" H 7480 3050 40  0000 L CNN
@@ -921,7 +913,7 @@ F 3 "" H 7400 3050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P12
+L keyboard-rescue:CONN_1-conn P12
 U 1 1 5136581A
 P 7400 3150
 F 0 "P12" H 7480 3150 40  0000 L CNN
@@ -932,7 +924,7 @@ F 3 "" H 7400 3150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P13
+L keyboard-rescue:CONN_1-conn P13
 U 1 1 51365820
 P 7400 3250
 F 0 "P13" H 7480 3250 40  0000 L CNN
@@ -943,7 +935,7 @@ F 3 "" H 7400 3250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P14
+L keyboard-rescue:CONN_1-conn P14
 U 1 1 51365826
 P 7400 3350
 F 0 "P14" H 7480 3350 40  0000 L CNN
@@ -954,7 +946,7 @@ F 3 "" H 7400 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P15
+L keyboard-rescue:CONN_1-conn P15
 U 1 1 51365868
 P 7400 3450
 F 0 "P15" H 7480 3450 40  0000 L CNN
@@ -985,7 +977,7 @@ row4
 Text Label 6700 3450 0    60   ~ 0
 row5
 $Comp
-L CONN_1 P16
+L keyboard-rescue:CONN_1-conn P16
 U 1 1 5137B43F
 P 9800 5750
 F 0 "P16" H 9880 5750 40  0000 L CNN
@@ -996,7 +988,7 @@ F 3 "" H 9800 5750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P17
+L keyboard-rescue:CONN_1-conn P17
 U 1 1 5137B445
 P 9800 5850
 F 0 "P17" H 9880 5850 40  0000 L CNN
@@ -1007,7 +999,7 @@ F 3 "" H 9800 5850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L keyboard-rescue:GND-power1 #PWR026
 U 1 1 5137B7DB
 P 9300 6050
 F 0 "#PWR026" H 9300 6050 30  0001 C CNN
@@ -1018,7 +1010,7 @@ F 3 "" H 9300 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR027
+L keyboard-rescue:VCC-power1 #PWR027
 U 1 1 5137BDF3
 P 8800 5350
 F 0 "#PWR027" H 8800 5450 30  0001 C CNN
@@ -1031,7 +1023,7 @@ $EndComp
 Entry Wire Line
 	8950 5000 9050 4900
 $Comp
-L LED DW4
+L keyboard-rescue:LED-device DW4
 U 1 1 516C76BF
 P 10450 4900
 F 0 "DW4" H 9850 4900 50  0000 L CNN
@@ -1042,7 +1034,7 @@ F 3 "" H 10450 4900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L keyboard-rescue:R-device R9
 U 1 1 516C77CB
 P 9800 4900
 F 0 "R9" V 9880 4900 50  0000 C CNN
@@ -1055,7 +1047,7 @@ $EndComp
 Text Label 9100 4900 0    50   ~ 0
 GPIO0
 $Comp
-L LED DW3
+L keyboard-rescue:LED-device DW3
 U 1 1 516C8475
 P 10450 4700
 F 0 "DW3" H 9850 4700 50  0000 L CNN
@@ -1066,7 +1058,7 @@ F 3 "" H 10450 4700 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R8
+L keyboard-rescue:R-device R8
 U 1 1 516C847B
 P 9800 4700
 F 0 "R8" V 9880 4700 50  0000 C CNN
@@ -1077,7 +1069,7 @@ F 3 "" H 9800 4700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED DW2
+L keyboard-rescue:LED-device DW2
 U 1 1 516C84BF
 P 10450 4500
 F 0 "DW2" H 9850 4500 50  0000 L CNN
@@ -1088,7 +1080,7 @@ F 3 "" H 10450 4500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R7
+L keyboard-rescue:R-device R7
 U 1 1 516C84C5
 P 9800 4500
 F 0 "R7" V 9880 4500 50  0000 C CNN
@@ -1099,7 +1091,7 @@ F 3 "" H 9800 4500 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED DW1
+L keyboard-rescue:LED-device DW1
 U 1 1 516C84CD
 P 10450 4300
 F 0 "DW1" H 9850 4300 50  0000 L CNN
@@ -1110,7 +1102,7 @@ F 3 "" H 10450 4300 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R6
+L keyboard-rescue:R-device R6
 U 1 1 516C84D3
 P 9800 4300
 F 0 "R6" V 9880 4300 50  0000 C CNN
@@ -1121,7 +1113,7 @@ F 3 "" H 9800 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR028
+L keyboard-rescue:VCC-power1 #PWR028
 U 1 1 516C9166
 P 10850 2050
 F 0 "#PWR028" H 10850 2150 30  0001 C CNN
@@ -1136,7 +1128,7 @@ Entry Wire Line
 Text Label 9100 3900 0    50   ~ 0
 GPIO2
 $Comp
-L LED DF10
+L keyboard-rescue:LED-device DF10
 U 1 1 5179B6C7
 P 10450 3900
 F 0 "DF10" H 9800 3900 50  0000 L CNN
@@ -1147,7 +1139,7 @@ F 3 "" H 10450 3900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L keyboard-rescue:R-device R10
 U 1 1 5179B6CD
 P 9800 3900
 F 0 "R10" V 9880 3900 50  0000 C CNN
@@ -1160,7 +1152,7 @@ $EndComp
 Text Label 9100 3600 0    50   ~ 0
 GPIO3
 $Comp
-L LED DF20
+L keyboard-rescue:LED-device DF20
 U 1 1 5179B5DF
 P 10450 3600
 F 0 "DF20" H 9800 3600 50  0000 L CNN
@@ -1171,7 +1163,7 @@ F 3 "" H 10450 3600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R11
+L keyboard-rescue:R-device R11
 U 1 1 5179B5E5
 P 9800 3600
 F 0 "R11" V 9880 3600 50  0000 C CNN
@@ -1186,7 +1178,7 @@ Entry Wire Line
 Text Label 9100 2350 0    50   ~ 0
 GPIO1
 $Comp
-L LED DF3
+L keyboard-rescue:LED-device DF3
 U 1 1 5179BCCC
 P 10450 2350
 F 0 "DF3" H 9850 2350 50  0000 L CNN
@@ -1197,7 +1189,7 @@ F 3 "" H 10450 2350 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R12
+L keyboard-rescue:R-device R12
 U 1 1 5179BCD2
 P 9850 2350
 F 0 "R12" V 9930 2350 50  0000 C CNN
@@ -1210,7 +1202,7 @@ $EndComp
 Entry Wire Line
 	8950 2450 9050 2350
 $Comp
-L LED DF11
+L keyboard-rescue:LED-device DF11
 U 1 1 5179BF27
 P 10450 4000
 F 0 "DF11" H 9800 4000 50  0000 L CNN
@@ -1221,7 +1213,7 @@ F 3 "" H 10450 4000 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED DF21
+L keyboard-rescue:LED-device DF21
 U 1 1 51855B09
 P 10450 3350
 F 0 "DF21" H 9800 3350 50  0000 L CNN
@@ -1232,7 +1224,7 @@ F 3 "" H 10450 3350 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R13
+L keyboard-rescue:R-device R13
 U 1 1 51855B0F
 P 9800 3350
 F 0 "R13" V 9880 3350 50  0000 C CNN
@@ -1243,7 +1235,7 @@ F 3 "" H 9800 3350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED DF22
+L keyboard-rescue:LED-device DF22
 U 1 1 51855B54
 P 10450 3100
 F 0 "DF22" H 9800 3100 50  0000 L CNN
@@ -1254,7 +1246,7 @@ F 3 "" H 10450 3100 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R14
+L keyboard-rescue:R-device R14
 U 1 1 51855B5A
 P 9800 3100
 F 0 "R14" V 9880 3100 50  0000 C CNN
@@ -1265,7 +1257,7 @@ F 3 "" H 9800 3100 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED DF23
+L keyboard-rescue:LED-device DF23
 U 1 1 51855BDB
 P 10450 2850
 F 0 "DF23" H 9800 2850 50  0000 L CNN
@@ -1276,7 +1268,7 @@ F 3 "" H 10450 2850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R15
+L keyboard-rescue:R-device R15
 U 1 1 51855BE1
 P 9800 2850
 F 0 "R15" V 9880 2850 50  0000 C CNN
@@ -1287,7 +1279,7 @@ F 3 "" H 9800 2850 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED DF201
+L keyboard-rescue:LED-device DF201
 U 1 1 5186E139
 P 10450 3500
 F 0 "DF201" H 9750 3500 50  0000 L CNN
@@ -1298,7 +1290,7 @@ F 3 "" H 10450 3500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED DF211
+L keyboard-rescue:LED-device DF211
 U 1 1 5186E17B
 P 10450 3250
 F 0 "DF211" H 9750 3250 50  0000 L CNN
@@ -1309,7 +1301,7 @@ F 3 "" H 10450 3250 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED DF221
+L keyboard-rescue:LED-device DF221
 U 1 1 5186E1BD
 P 10450 3000
 F 0 "DF221" H 9750 3000 50  0000 L CNN
@@ -1320,7 +1312,7 @@ F 3 "" H 10450 3000 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED DF231
+L keyboard-rescue:LED-device DF231
 U 1 1 5186E1FF
 P 10450 2750
 F 0 "DF231" H 9750 2750 50  0000 L CNN
@@ -1331,7 +1323,7 @@ F 3 "" H 10450 2750 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED DF232
+L keyboard-rescue:LED-device DF232
 U 1 1 5186E241
 P 10450 2650
 F 0 "DF232" H 9750 2650 50  0000 L CNN
@@ -1394,7 +1386,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 4250 2100 4450
 Wire Wire Line
-	2250 4000 2750 4000
+	2250 4000 2450 4000
 Wire Wire Line
 	5500 5550 5500 7000
 Wire Wire Line
@@ -1431,21 +1423,21 @@ Connection ~ 1100 1650
 Wire Wire Line
 	1100 1500 1100 1650
 Wire Wire Line
-	800  1500 800  1900
+	800  1500 800  1650
 Connection ~ 1400 1650
 Wire Wire Line
 	1400 1650 1400 1500
 Wire Wire Line
 	2000 1650 2000 1500
 Wire Wire Line
-	800  1650 2000 1650
+	800  1650 1100 1650
 Connection ~ 1400 900 
 Wire Wire Line
 	1400 900  1400 1100
 Wire Wire Line
 	2000 900  2000 1100
 Wire Wire Line
-	800  900  2000 900 
+	800  900  1100 900 
 Wire Wire Line
 	3800 6900 3800 7350
 Wire Wire Line
@@ -1456,7 +1448,7 @@ Connection ~ 2450 4000
 Wire Wire Line
 	2450 4150 2450 4000
 Wire Wire Line
-	1550 3600 1550 4150
+	1550 3600 1550 4000
 Connection ~ 1550 4000
 Wire Wire Line
 	1550 4550 1550 4750
@@ -1468,7 +1460,7 @@ Wire Wire Line
 	1700 900  1700 1100
 Connection ~ 1700 900 
 Wire Wire Line
-	800  700  800  1100
+	800  700  800  900 
 Connection ~ 1100 900 
 Wire Wire Line
 	1700 1650 1700 1500
@@ -1494,14 +1486,14 @@ Wire Wire Line
 Wire Wire Line
 	2600 6050 2750 6050
 Wire Wire Line
-	2600 5450 2600 6050
+	2600 5450 2600 5550
 Connection ~ 2600 5550
 Wire Wire Line
 	4750 3850 5200 3850
 Wire Wire Line
 	4750 4050 5200 4050
 Wire Wire Line
-	2550 1350 2550 3200
+	2550 1350 2550 1500
 Connection ~ 2550 3200
 Wire Wire Line
 	4700 1500 4500 1500
@@ -1531,10 +1523,8 @@ Wire Wire Line
 	4750 4450 6100 4450
 Wire Wire Line
 	3100 1400 3700 1400
-Wire Bus Line
-	5300 900  5300 4200
 Wire Wire Line
-	1450 3200 2750 3200
+	1450 3200 2550 3200
 Wire Wire Line
 	6650 5150 7050 5150
 Wire Wire Line
@@ -1565,8 +1555,6 @@ Wire Wire Line
 	5200 6050 4750 6050
 Wire Wire Line
 	5200 6150 4750 6150
-Wire Bus Line
-	5300 5700 5300 6800
 Wire Wire Line
 	9050 5350 9650 5350
 Wire Wire Line
@@ -1585,10 +1573,6 @@ Wire Wire Line
 	6650 3350 7250 3350
 Wire Wire Line
 	7250 3450 6650 3450
-Wire Bus Line
-	8950 900  8950 6800
-Wire Bus Line
-	8950 6350 8950 6450
 Wire Wire Line
 	9650 5850 9300 5850
 Wire Wire Line
@@ -1602,7 +1586,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 5850 9150 5850
 Wire Wire Line
-	9050 4900 9550 4900
+	9050 4900 9500 4900
 Wire Wire Line
 	10050 4900 10250 4900
 Wire Wire Line
@@ -1620,7 +1604,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 4300 10650 4300
 Wire Wire Line
-	9500 4300 9500 4900
+	9500 4300 9500 4500
 Wire Wire Line
 	9500 4700 9550 4700
 Connection ~ 9500 4900
@@ -1636,16 +1620,16 @@ Connection ~ 10850 4700
 Wire Wire Line
 	9050 3900 9550 3900
 Wire Wire Line
-	10050 3900 10250 3900
+	10050 3900 10200 3900
 Wire Wire Line
-	10850 3900 10650 3900
+	10850 3900 10750 3900
 Connection ~ 10850 3900
 Wire Wire Line
-	9050 3600 9550 3600
+	9050 3600 9500 3600
 Wire Wire Line
-	10050 3600 10250 3600
+	10050 3600 10150 3600
 Wire Wire Line
-	10850 3600 10650 3600
+	10850 3600 10750 3600
 Connection ~ 10850 3600
 Wire Wire Line
 	9050 2350 9600 2350
@@ -1665,13 +1649,13 @@ Wire Wire Line
 	10750 4000 10750 3900
 Connection ~ 10750 3900
 Wire Wire Line
-	10050 3350 10250 3350
+	10050 3350 10150 3350
 Wire Wire Line
-	10050 3100 10250 3100
+	10050 3100 10150 3100
 Wire Wire Line
-	10050 2850 10250 2850
+	10050 2850 10150 2850
 Wire Wire Line
-	9500 2850 9500 3600
+	9500 2850 9500 3100
 Wire Wire Line
 	9500 3350 9550 3350
 Connection ~ 9500 3600
@@ -1682,16 +1666,16 @@ Wire Wire Line
 	9500 2850 9550 2850
 Connection ~ 9500 3100
 Wire Wire Line
-	10850 3350 10650 3350
+	10850 3350 10750 3350
 Connection ~ 10850 3350
 Wire Wire Line
-	10850 3100 10650 3100
+	10850 3100 10750 3100
 Connection ~ 10850 3100
 Wire Wire Line
-	10850 2850 10650 2850
+	10850 2850 10750 2850
 Connection ~ 10850 2850
 Wire Wire Line
-	10850 2050 10850 4900
+	10850 2050 10850 2350
 Wire Wire Line
 	10150 3100 10150 3000
 Wire Wire Line
@@ -1723,7 +1707,7 @@ Wire Wire Line
 	10750 3500 10750 3600
 Connection ~ 10750 3600
 Wire Wire Line
-	10150 2650 10150 2850
+	10150 2650 10150 2750
 Wire Wire Line
 	10150 2650 10250 2650
 Connection ~ 10150 2850
@@ -1733,7 +1717,7 @@ Connection ~ 10150 2750
 Wire Wire Line
 	10650 2650 10750 2650
 Wire Wire Line
-	10750 2650 10750 2850
+	10750 2650 10750 2750
 Connection ~ 10750 2850
 Wire Wire Line
 	10650 2750 10750 2750
@@ -1743,8 +1727,6 @@ Wire Bus Line
 Wire Wire Line
 	3700 1500 2550 1500
 Connection ~ 2550 1500
-Wire Bus Line
-	3000 900  3000 1700
 $Sheet
 S 6550 700  1250 1900
 U 519005B1
@@ -1771,7 +1753,7 @@ F19 "lrow5" I L 6550 1850 60
 F20 "lcol1" I R 7800 950 60 
 $EndSheet
 $Comp
-L CONN_1 P18
+L keyboard-rescue:CONN_1-conn P18
 U 1 1 51C4E40B
 P 6050 1450
 F 0 "P18" H 6130 1450 40  0000 L CNN
@@ -1782,7 +1764,7 @@ F 3 "" H 6050 1450 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P19
+L keyboard-rescue:CONN_1-conn P19
 U 1 1 51C4E6F7
 P 6050 1550
 F 0 "P19" H 6130 1550 40  0000 L CNN
@@ -1793,7 +1775,7 @@ F 3 "" H 6050 1550 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P20
+L keyboard-rescue:CONN_1-conn P20
 U 1 1 51C4E775
 P 6050 1650
 F 0 "P20" H 6130 1650 40  0000 L CNN
@@ -1804,7 +1786,7 @@ F 3 "" H 6050 1650 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P21
+L keyboard-rescue:CONN_1-conn P21
 U 1 1 51C4E77B
 P 6050 1750
 F 0 "P21" H 6130 1750 40  0000 L CNN
@@ -1815,7 +1797,7 @@ F 3 "" H 6050 1750 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P22
+L keyboard-rescue:CONN_1-conn P22
 U 1 1 51C4E7F9
 P 6050 1850
 F 0 "P22" H 6130 1850 40  0000 L CNN
@@ -1826,7 +1808,7 @@ F 3 "" H 6050 1850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_1 P23
+L keyboard-rescue:CONN_1-conn P23
 U 1 1 51C4EC39
 P 8300 950
 F 0 "P23" H 8380 950 40  0000 L CNN
@@ -1837,7 +1819,7 @@ F 3 "" H 8300 950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P24
+L keyboard-rescue:CONN_1-conn P24
 U 1 1 51C4F088
 P 8300 1050
 F 0 "P24" H 8380 1050 40  0000 L CNN
@@ -1848,7 +1830,7 @@ F 3 "" H 8300 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P25
+L keyboard-rescue:CONN_1-conn P25
 U 1 1 51C4F106
 P 8300 1150
 F 0 "P25" H 8380 1150 40  0000 L CNN
@@ -1859,7 +1841,7 @@ F 3 "" H 8300 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P26
+L keyboard-rescue:CONN_1-conn P26
 U 1 1 51C4F10C
 P 8300 1250
 F 0 "P26" H 8380 1250 40  0000 L CNN
@@ -1870,7 +1852,7 @@ F 3 "" H 8300 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P27
+L keyboard-rescue:CONN_1-conn P27
 U 1 1 51C4F382
 P 8300 1350
 F 0 "P27" H 8380 1350 40  0000 L CNN
@@ -1881,7 +1863,7 @@ F 3 "" H 8300 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P28
+L keyboard-rescue:CONN_1-conn P28
 U 1 1 51C4F388
 P 8300 1450
 F 0 "P28" H 8380 1450 40  0000 L CNN
@@ -1892,7 +1874,7 @@ F 3 "" H 8300 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P29
+L keyboard-rescue:CONN_1-conn P29
 U 1 1 51C4F38E
 P 8300 1550
 F 0 "P29" H 8380 1550 40  0000 L CNN
@@ -1903,7 +1885,7 @@ F 3 "" H 8300 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P30
+L keyboard-rescue:CONN_1-conn P30
 U 1 1 51C4F394
 P 8300 1650
 F 0 "P30" H 8380 1650 40  0000 L CNN
@@ -1914,7 +1896,7 @@ F 3 "" H 8300 1650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P31
+L keyboard-rescue:CONN_1-conn P31
 U 1 1 51C4F412
 P 8300 1750
 F 0 "P31" H 8380 1750 40  0000 L CNN
@@ -1925,7 +1907,7 @@ F 3 "" H 8300 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P32
+L keyboard-rescue:CONN_1-conn P32
 U 1 1 51C4F418
 P 8300 1850
 F 0 "P32" H 8380 1850 40  0000 L CNN
@@ -1936,7 +1918,7 @@ F 3 "" H 8300 1850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P33
+L keyboard-rescue:CONN_1-conn P33
 U 1 1 51C4F41E
 P 8300 1950
 F 0 "P33" H 8380 1950 40  0000 L CNN
@@ -1947,7 +1929,7 @@ F 3 "" H 8300 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P34
+L keyboard-rescue:CONN_1-conn P34
 U 1 1 51C4F424
 P 8300 2050
 F 0 "P34" H 8380 2050 40  0000 L CNN
@@ -1958,7 +1940,7 @@ F 3 "" H 8300 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P35
+L keyboard-rescue:CONN_1-conn P35
 U 1 1 51C4F42A
 P 8300 2150
 F 0 "P35" H 8380 2150 40  0000 L CNN
@@ -1969,7 +1951,7 @@ F 3 "" H 8300 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P36
+L keyboard-rescue:CONN_1-conn P36
 U 1 1 51C4F430
 P 8300 2250
 F 0 "P36" H 8380 2250 40  0000 L CNN
@@ -2020,13 +2002,9 @@ Wire Wire Line
 Wire Bus Line
 	6550 6500 6200 6500
 Wire Bus Line
-	6200 6500 6200 3300
-Wire Bus Line
-	6550 2950 6550 6500
-Wire Bus Line
 	8950 6800 5300 6800
 $Comp
-L CONN_1 P37
+L keyboard-rescue:CONN_1-conn P37
 U 1 1 51CD1DED
 P 9600 950
 F 0 "P37" H 9680 950 40  0000 L CNN
@@ -2037,7 +2015,7 @@ F 3 "" H 9600 950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P38
+L keyboard-rescue:CONN_1-conn P38
 U 1 1 51CD1DF3
 P 9600 1050
 F 0 "P38" H 9680 1050 40  0000 L CNN
@@ -2048,7 +2026,7 @@ F 3 "" H 9600 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P39
+L keyboard-rescue:CONN_1-conn P39
 U 1 1 51CD1DF9
 P 9600 1150
 F 0 "P39" H 9680 1150 40  0000 L CNN
@@ -2059,7 +2037,7 @@ F 3 "" H 9600 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P40
+L keyboard-rescue:CONN_1-conn P40
 U 1 1 51CD1DFF
 P 9600 1250
 F 0 "P40" H 9680 1250 40  0000 L CNN
@@ -2070,7 +2048,7 @@ F 3 "" H 9600 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P41
+L keyboard-rescue:CONN_1-conn P41
 U 1 1 51CD1E05
 P 9600 1350
 F 0 "P41" H 9680 1350 40  0000 L CNN
@@ -2081,7 +2059,7 @@ F 3 "" H 9600 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1 P42
+L keyboard-rescue:CONN_1-conn P42
 U 1 1 51CD1E0B
 P 9600 1450
 F 0 "P42" H 9680 1450 40  0000 L CNN
@@ -2120,7 +2098,7 @@ GPIO2
 Text Label 9100 1350 0    50   ~ 0
 GPIO3
 $Comp
-L VCC #PWR029
+L keyboard-rescue:VCC-power1 #PWR029
 U 1 1 51CCBD4D
 P 9350 750
 F 0 "#PWR029" H 9350 850 30  0001 C CNN
@@ -2135,7 +2113,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 950  9450 950 
 $Comp
-L GND #PWR030
+L keyboard-rescue:GND-power1 #PWR030
 U 1 1 51CCCE51
 P 9350 1650
 F 0 "#PWR030" H 9350 1650 30  0001 C CNN
@@ -2157,4 +2135,96 @@ Wire Wire Line
 	1100 900  1100 1100
 Connection ~ 800  900 
 Connection ~ 800  1650
+Wire Wire Line
+	1100 1650 1400 1650
+Wire Wire Line
+	1400 1650 1700 1650
+Wire Wire Line
+	1400 900  1700 900 
+Wire Wire Line
+	2450 4000 2750 4000
+Wire Wire Line
+	1550 4000 1550 4150
+Wire Wire Line
+	1700 900  2000 900 
+Wire Wire Line
+	1100 900  1400 900 
+Wire Wire Line
+	1700 1650 2000 1650
+Wire Wire Line
+	2600 5550 2600 6050
+Wire Wire Line
+	2550 3200 2750 3200
+Wire Wire Line
+	9500 4900 9550 4900
+Wire Wire Line
+	9500 4700 9500 4900
+Wire Wire Line
+	9500 4500 9500 4700
+Wire Wire Line
+	10850 4300 10850 4500
+Wire Wire Line
+	10850 4500 10850 4700
+Wire Wire Line
+	10850 4700 10850 4900
+Wire Wire Line
+	10850 3900 10850 4300
+Wire Wire Line
+	10850 3600 10850 3900
+Wire Wire Line
+	10850 2350 10850 2850
+Wire Wire Line
+	10200 3900 10250 3900
+Wire Wire Line
+	10750 3900 10650 3900
+Wire Wire Line
+	9500 3600 9550 3600
+Wire Wire Line
+	9500 3350 9500 3600
+Wire Wire Line
+	9500 3100 9500 3350
+Wire Wire Line
+	10850 3350 10850 3600
+Wire Wire Line
+	10850 3100 10850 3350
+Wire Wire Line
+	10850 2850 10850 3100
+Wire Wire Line
+	10150 3100 10250 3100
+Wire Wire Line
+	10750 3100 10650 3100
+Wire Wire Line
+	10750 3350 10650 3350
+Wire Wire Line
+	10150 3350 10250 3350
+Wire Wire Line
+	10150 3600 10250 3600
+Wire Wire Line
+	10750 3600 10650 3600
+Wire Wire Line
+	10150 2850 10250 2850
+Wire Wire Line
+	10150 2750 10150 2850
+Wire Wire Line
+	10750 2850 10650 2850
+Wire Wire Line
+	10750 2750 10750 2850
+Wire Wire Line
+	2550 1500 2550 3200
+Wire Wire Line
+	800  900  800  1100
+Wire Wire Line
+	800  1650 800  1900
+Wire Bus Line
+	3000 900  3000 1700
+Wire Bus Line
+	5300 5700 5300 6800
+Wire Bus Line
+	5300 900  5300 4200
+Wire Bus Line
+	8950 900  8950 6800
+Wire Bus Line
+	6200 3300 6200 6500
+Wire Bus Line
+	6550 2950 6550 6500
 $EndSCHEMATC
