@@ -1,0 +1,4 @@
+*.bak
+*.net
+fp-info-cache
+rescue-backup
