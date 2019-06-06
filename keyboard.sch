@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "ukbdc - schematic"
 Date "17 jul 2013"
 Rev ""
@@ -2215,6 +2215,12 @@ Wire Wire Line
 	800  900  800  1100
 Wire Wire Line
 	800  1650 800  1900
+$Sheet
+S 1350 2150 800  450 
+U 5CFC508C
+F0 "MCU" 60
+F1 "mcu.sch" 60
+$EndSheet
 Wire Bus Line
 	3000 900  3000 1700
 Wire Bus Line
